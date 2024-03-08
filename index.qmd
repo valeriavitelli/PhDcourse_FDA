@@ -22,17 +22,20 @@ Functional Data Analysis (FDA) is a branch of statistics focused on the analysis
 
 ## Course Objective
 The overall objective of the course is that the PhD students in statistics at the DSEAS of the University of Palermo (Italy) develop skills in FDA, both at the theoretical (understanding the methodologies) and practical level (actual implementation in R). At the end of the course the students should be able to:
+
 * identify situations in which they can treat their data as functional
 * apply standard FDA techniques (data description, dimensionality reduction, clustering, regression, and inference)
 * visualize the results
+
 The course will last 4 days, comprising lectures connected to practical hands-on sessions. 
 
-##Exam 
+## Exam 
 Evaluation of the course learning outcome will be carried out via a take-home exam:
+
 * the students will receive a dataset on Day 3 at lunch time
 * they will be requested to analyse the data via a selected FDA technique among those introduced during the course
 * evaluation will be carried out in a seminar, where the students will be requested to
-+ motivate the choice of analysis
-+ describe the chosen methodology
-+ visualize and discuss the data and results
+    + motivate the choice of analysis
+    + describe the chosen methodology
+    + visualize and discuss the data and results
 

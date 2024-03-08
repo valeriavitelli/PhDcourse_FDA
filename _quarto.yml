@@ -17,6 +17,6 @@ website:
         
 format:
   html:
-    theme: sketchy
+    theme: flatly
     # theme: styles.scss
     toc: true
