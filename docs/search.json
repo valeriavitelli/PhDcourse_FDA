@@ -2,8 +2,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Zero to Quarto Workshop",
+    "title": "PhD course: An Introduction to Functional Data Analysis",
     "section": "",
-    "text": "Date: Monday 23 October 2023, 6:30PM to 8:00PM, CEST\nPlace: KO2-F-153, Rämistrasse 71, Zürich\nEvent link\n\n\nWelcome!\nQuarto is one of the most discussed topics in the R community for the past year. In the posit conf 2023 that just happened a few weeks ago, there were 23 (!) talks on this open-source publishing system. You can build a personal or organisation website; a course or workshop website; a blog; a scientific report; a presentation; all with the possibility to display and execute code (R, Python, Julia), and for free.\nIf you:\n\ndon’t know what quarto is yet, and want to find out more\nheard of quarto somewhere, but don’t know where to start\nare an expert in quarto and want to share your experience\n\nthen this workshop is for you!"
+    "text": "Date: Monday March 25th to Thursday March 28th 2024\nPlace: dSEAS, University of Palermo, Italy\nEvent link"
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "PhD course: An Introduction to Functional Data Analysis",
+    "section": "Course Description",
+    "text": "Course Description\nFunctional Data Analysis (FDA) is a branch of statistics focused on the analysis and interpretation of data on a continuum, meaning that they can be described naturally as smooth curves or functions. Recent technological advances allow collection of data at such high-frequency that classical multivariate statistical techniques are not able to fully capture and describe their complexity, resulting in the flourishing of functional data methodology. FDA can easily be thought of as the collection of all statistical methodologies needed to handle samples of curves. These include mostly classical multivariate statistical methods adapted to the infinite dimensional case, such as regression models, inference, dimensional reduction, and clustering. However, methods that are specifically needed in this context have also been developed, such as data smoothing and registration. FDA methods have been applied quite broadly, from medicine to engineering, from business, to demography and social sciences, affecting nearly all fields of science. This course offers an introduction to FDA from a methodological viewpoint and gives practical guidance to R packages used in such context."
+  },
+  {
+    "objectID": "index.html#course-objective",
+    "href": "index.html#course-objective",
+    "title": "PhD course: An Introduction to Functional Data Analysis",
+    "section": "Course Objective",
+    "text": "Course Objective\nThe overall objective of the course is that the PhD students in statistics at the DSEAS of the University of Palermo (Italy) develop skills in FDA, both at the theoretical (understanding the methodologies) and practical level (actual implementation in R). At the end of the course the students should be able to: * identify situations in which they can treat their data as functional * apply standard FDA techniques (data description, dimensionality reduction, clustering, regression, and inference) * visualize the results The course will last 4 days, comprising lectures connected to practical hands-on sessions.\n##Exam Evaluation of the course learning outcome will be carried out via a take-home exam: * the students will receive a dataset on Day 3 at lunch time * they will be requested to analyse the data via a selected FDA technique among those introduced during the course * evaluation will be carried out in a seminar, where the students will be requested to + motivate the choice of analysis + describe the chosen methodology + visualize and discuss the data and results"
   }
 ]
