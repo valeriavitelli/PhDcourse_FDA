@@ -1,6 +1,5 @@
 # PhD course: An Introduction to Functional Data Analysis
-## theory and practice
-
+# (Theory and Practice)
 
 This is the repository for all course material for the [PhD course on FDA](https://valeriavitelli.github.io/PhDcourse_FDA/) held by [Valeria Vitelli](https://www.med.uio.no/imb/english/people/aca/valeriv/) (University of Oslo, Norway) at the [SEAS Department, University of Palermo](https://www.unipa.it/dipartimenti/seas/en/index.html) on March 25-28 2024.
 
