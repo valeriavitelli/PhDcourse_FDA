@@ -4,7 +4,7 @@ project:
 
 website:
   page-navigation: true
-  title: "Zero to Quarto Workshop"
+  title: "PhD course: An Introduction to Functional Data Analysis"
 
   navbar:
     left:
@@ -17,6 +17,6 @@ website:
         
 format:
   html:
-    # theme: zephyr
-    theme: styles.scss
+    theme: sketchy
+    # theme: styles.scss
     toc: true
