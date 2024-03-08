@@ -1,15 +1,18 @@
-# template-02quarto
+# PhD course
+## An Introduction to Functional Data Analysis 
+## theory and practice
 
-This is a template for a minimal quarto website, used for [R-Ladies Zurich Workshop: Zero to Quarto](https://andreaczhang.github.io/workshop-02quarto/) on 23.10.2023.
 
-Website for the workshop can be accessed [here](https://andreaczhang.github.io/workshop-02quarto/).
+This is the repository for all course material for the [PhD course on FDA](https://valeriavitelli.github.io/PhDcourse_FDA/), held by  at the University of Palermo on March 25^th^-28^th^ 2024.
 
-Slides for the workshop can be accessed [here](https://andreaczhang.github.io/slides-02quarto/)
+Website for the course can be accessed [here](https://valeriavitelli.github.io/PhDcourse_FDA/).
 
-### Content of this template
+Slides for the workshop can be accessed [here](https://andreaczhang.github.io/slides-02quarto/) (CHANGE HERE)
 
-* `_quarto.yml`: meta-data for the website
-* `index.qmd`: home page
-* `styles.scss`: customized style
-* `image`: an image for practice
+### Content of this repository
+
+* `_quarto.yml`: meta-data for the website (CHANGE HERE)
+* `index.qmd`: home page (CHANGE HERE)
+* `styles.scss`: customized style (CHANGE HERE)
+* `image`: an image for practice (CHANGE HERE)
 
