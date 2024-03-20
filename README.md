@@ -4,12 +4,11 @@ This is the repository for all course material for the [PhD course on FDA](https
 
 Website for the course can be accessed [here](https://valeriavitelli.github.io/PhDcourse_FDA/).
 
-Slides for the workshop can be accessed [here](https://andreaczhang.github.io/slides-02quarto/) (CHANGE HERE)
+Course materials can be accessed [here](https://valeriavitelli.github.io/PhDcourse_FDA/schedule)
 
-### Content of this repository
+### Content of this repository (folders):
 
-* `_quarto.yml`: meta-data for the website (CHANGE HERE)
-* `index.qmd`: home page (CHANGE HERE)
-* `styles.scss`: customized style (CHANGE HERE)
-* `image`: an image for practice (CHANGE HERE)
+* `lectures`: pdf files of the lecture slides
+* `lab_scripts`: R scripts for the labs
+* `data`: additional resources (workspaces, datasets, ...)
 
