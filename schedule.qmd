@@ -9,7 +9,9 @@ format:
 | Day / Time | Topic | Course Material | 
 |:----------:|:-----:|:---------------:|
 | Day 1, 10:00 - 11:00  | Overview of function spaces and operator theory | [Lecture](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lectures/Lecture0.pdf)   |
+| Day 1, 11:15 - 13:00  | FDA fundamentals | [Lecture](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lectures/Lecture1.pdf)   |
+|   |  | [Smoothed-Growth-Data](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/data/Lab_2_growth_smoothing.RData)   |
 
-: Schedule with Links to Course Materials
+: An overview of the course program, topics, and associated materials
 
 
