@@ -6,14 +6,10 @@ format:
     toc-depth: 2
 ---
 
-Date: **Monday March 25^th^ to Thursday March 28^th^ 2024** 
+| Day / Time | Topic | Course Material | 
+|:----------:|:-----:|:---------------:|
+| Day 1, 10:00 - 11:00  | Overview of function spaces and operator theory | [Lecture](https://www.med.uio.no/imb/english/research/groups/statistics-high-dimensional-data/events/2024-PhDcourse-FDA.html)   |
 
-Place: **dSEAS, University of Palermo, Italy**
-
-[Event link](https://www.med.uio.no/imb/english/research/groups/statistics-high-dimensional-data/events/2024-PhDcourse-FDA.html)
-
-------------------
- 
-# Welcome!
+: Schedule with Links to Course Materials
 
 
