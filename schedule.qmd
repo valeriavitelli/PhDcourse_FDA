@@ -1,0 +1,19 @@
+---
+title: "Schedule and Materials"
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+Date: **Monday March 25^th^ to Thursday March 28^th^ 2024** 
+
+Place: **dSEAS, University of Palermo, Italy**
+
+[Event link](https://www.med.uio.no/imb/english/research/groups/statistics-high-dimensional-data/events/2024-PhDcourse-FDA.html)
+
+------------------
+ 
+# Welcome!
+
+
