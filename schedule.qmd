@@ -11,6 +11,8 @@ format:
 | Day 1, 10:00 - 11:00  | Overview of function spaces and operator theory | [Lecture](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lectures/Lecture0.pdf)   |
 | Day 1, 11:15 - 13:00  | FDA fundamentals | [Lecture](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lectures/Lecture1.pdf)   |
 |   |  | [Smoothed-Growth-Data](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/data/Lab_2_growth_smoothing.RData)   |
+| Day 1, 14:00 - 15:00  | Functional data smoothing with R | [Code](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_1_Intro_Smoothing.R)   |
+
 
 : An overview of the course program, topics, and associated materials
 
