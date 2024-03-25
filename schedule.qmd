@@ -12,7 +12,17 @@ format:
 | 10:00 - 11:00  | Overview of function spaces and operator theory | [Lecture](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lectures/Lecture0.pdf)   |
 | 11:15 - 13:00  | FDA fundamentals | [Lecture](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lectures/Lecture1.pdf)   |
 | 14:00 - 15:00  | Functional data smoothing with R | [Code](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_1_Intro_Smoothing.R)   |
+| Additional Materials  | Spatial Smoothing | [paper1](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/materials/Sangalli-Spatialsplineregression-2013.pdf) [paper2](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/materials/Sangalli_2021_IntStatRev_SpatialRegression.pdf)  |
+
 
 : **Day 1**
 
+| Time | Topic | Course Material | 
+|:----------:|:-----:|:---------------:|
+| 10:00 - 13:00  | Unsupervised learning: fPCA, clustering, registration | [Lecture](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lectures/Lecture2.pdf)   |
+| 15:00 - 16:00  | Functional unsupervised learning with R | [Code](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_2_Unsupervised_Learning.R)   |
+| Additional Materials | Function for Landmark Registration | [Code](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_2_my_landmarkreg.R) |
+| Additional Materials | Workspace with Functional k-means | [Code](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_2_functional_kmeans.RData) |
+
+: **Day 2**
 
