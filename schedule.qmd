@@ -20,10 +20,10 @@ format:
 | Time | Topic | Course Material | 
 |:----------:|:-----:|:---------------:|
 | 10:00 - 13:00  | Unsupervised learning: fPCA, clustering, registration | [Lecture](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lectures/Lecture2.pdf)   |
-| 15:00 - 16:00  | Functional unsupervised learning with R | [Code](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_2_Unsupervised_Learning.R)   |
+| 15:30 - 16:30  | Functional unsupervised learning with R | [Code](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_2_Unsupervised_Learning.R)   |
 | Additional Materials | Function for Landmark Registration | [Code](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_2_my_landmarkreg.R) |
-| Additional Materials | Smoothing Results for Growth Curves | [Code](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_2_growth_smoothing.Rdata) |
-| Additional Materials | Functional k-means Results for Growth Curves | [Code](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_2_functional_kmeans.Rdata) |
+| Additional Materials | Smoothing Results for Growth Curves | [Workspace](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_2_growth_smoothing.Rdata) |
+| Additional Materials | Functional k-means Results for Growth Curves | [Workspace](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_2_functional_kmeans.Rdata) |
 
 : **Day 2**
 
