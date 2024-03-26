@@ -27,3 +27,10 @@ format:
 
 : **Day 2**
 
+| Time | Topic | Course Material | 
+|:----------:|:-----:|:---------------:|
+| 10:00 - 11:30  | Supervised learning: functional regression | [Lecture](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lectures/Lecture3.pdf)   |
+| 11:45 - 13:00  | Functional regression with R | [Code](https://github.com/valeriavitelli/PhDcourse_FDA/blob/main/lab_scripts/Lab_3_Functional_Regression.R)   |
+
+: **Day 3**
+
