@@ -226,28 +226,23 @@ p.fine <- 110 # fine grid on which to evaluate the data -> a bit larger! (border
 deriv0 <- deriv1 <- deriv2 <- NULL
 
 ## create a B-spline basis
-# -> knots every 2 years except at border
-# -> better computational stability; border effects, stop at 16 years
+# -> knots every 2 years except at border (better computational stability)
+# -> stop at 16 years (coherence to previous analyses; border effects) 
 age <- c(min(x):3,(2:7)*2+1,16)
 age
 agefine <- seq(min(x),16,length=p.fine)
 fbobj <- create.bspline.basis(range(x),norder=4,breaks=age)
 WfdParobj <- fdPar(fbobj)
-
-for(i in 1:n){ # takes approx 10 minutes to run -> saved results!
-  # monotone smoothing
-  result <- smooth.monotone(x,data[i,],WfdParobj)
-  wfd <- result$Wfdobj
-  beta <- result$beta
-  hgtfine <- beta[1]+beta[2]*eval.monfd(agefine,wfd)
-  deriv0 <- rbind(deriv0,t(hgtfine))
-  # evaluate first derivative -> growth velocity!
-  hgtfine1 <- beta[2]*eval.monfd(agefine,wfd,1)
-  deriv1 <- rbind(deriv1,t(hgtfine1))
-  # evaluate second derivative -> growth acceleration!
-  hgtfine2 <- beta[2]*eval.monfd(agefine,wfd,2)
-  deriv2 <- rbind(deriv2,t(hgtfine2))
-}
+## could also add penalization in 'fdPar': third deriv; lambda = 10^(-0.5)
+#WfdParobj <- fdPar(fbobj, 3, 10^(-0.5))
+growthMon <- smooth.monotone(x, t(data), WfdParobj)
+wfd <- growthMon$Wfdobj
+beta <- growthMon$beta
+deriv0 <- t( beta[1]+beta[2]*eval.monfd(agefine,wfd))
+# evaluate first derivative -> growth velocity!
+deriv1 <- t( beta[2]*eval.monfd(agefine,wfd,1) )
+# evaluate second derivative -> growth acceleration!
+deriv2 <- t( beta[2]*eval.monfd(agefine,wfd,2) )
 
 # remove border points (derivatives are much more noisy at borders!)
 agefine <- agefine[-(1:10)]
@@ -271,9 +266,9 @@ matplot(agefine, t(deriv2), type = 'l', col=c('purple','forestgreen')[gender],
         lty=1, xlab = 'Age (yrs)', ylab = 'Acceleration (cm/yr^2)')
 abline(h=0, lty=2)
 
-# evaluate the estimates for some selected data
+# evaluate the estimates for one selected curve
 par(mfrow=c(1,2))
-i <- 20 # 10, 15, 20
+i <- 10
 dt <- (x[-1]+x[-length(x)])/2
 df <- diff(data[i,])/diff(x)
 plot(dt, df, pch=16,xlab='age',ylab='growth velocity',ylim = range(c(df,deriv1[i,])),
@@ -332,6 +327,7 @@ for(L in which.L){# takes approx 10 minutes to run -> saved results!
 
 }
 save(which.L, growth.kmean.L, file= 'Lab_2_functional_kmeans.Rdata')
+load('Lab_2_functional_kmeans.Rdata')
 
 # postprocess results
 av.dist <- silh <- matrix(NA, n, length(which.L))
@@ -386,7 +382,7 @@ plot(growth.hclust, type = "amplitude")
 basis <- create.bspline.basis(c(0, 365), nbasis=21, norder=4)
 fdobj <- smooth.basis(day.5, CanadianWeather$dailyAv[,,"Temperature.C"],basis,
                       fdnames=list("Day", "Station", "Deg C"))$fd
-res = funFEM(fdobj,K=2)
+res <- funFEM(fdobj,K=2)
 
 # Visualization of the partition and the group means
 par(mfrow=c(1,2))
@@ -517,8 +513,8 @@ abline(a=0, b=1, lwd=2)
 ?fdakmeans
 
 # start with functional k-means 
-growth.kmean <- fdakmeans(agefine, deriv1, n_clusters = 2, check_total_dissimilarity = FALSE,
-                          centroid_type = "mean", warping_class = "none", metric = "l2")
+growth.kmean <- fdakmeans(agefine, deriv1, n_clusters = 1, check_total_dissimilarity = FALSE,
+                          centroid_type = "mean", warping_class = "affine", metric = "l2")
 
 x11()
 plot(growth.kmean, type = "amplitude")
