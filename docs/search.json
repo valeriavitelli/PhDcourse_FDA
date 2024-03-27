@@ -74,6 +74,6 @@
     "href": "exam.html#exam-datasets",
     "title": "Take-Home Exam Description",
     "section": "Exam Datasets",
-    "text": "Exam Datasets\nTBA"
+    "text": "Exam Datasets\nDataset 1: Sugar Data\nDataset 2: AneuRisk65 Data Image reconstructions of the Inner Carotid Artery (ICA), described in terms of the vessel centreline and of the vessel radius profile. The file ‘Patients.txt’ contains information on the 65 patients. For each patient icase, icase=1, ..65, the file ‘Rawdata-FKS-icase.txt’ contains both raw and smoothed ICA data (abscissa, radius, 3 spatial coordinates of the ICA centerline, corresponding first and second derivatives, curvature).\nData can be downloaded here.\nSee the README file for more information."
   }
 ]
