@@ -11,4 +11,5 @@ Course materials can be accessed [here](https://valeriavitelli.github.io/PhDcour
 * `lectures`: pdf files of the lecture slides
 * `lab_scripts`: R scripts for the labs
 * `data`: additional resources (workspaces, datasets, ...)
+* `materials`: useful bibliography (books, papers, ...)
 
