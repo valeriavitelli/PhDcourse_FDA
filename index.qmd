@@ -30,12 +30,4 @@ The overall objective of the course is that the PhD students in statistics at th
 The course will last 4 days, comprising lectures connected to practical hands-on sessions. 
 
 ## Exam 
-Evaluation of the course learning outcome will be carried out via a take-home exam:
-
-* the students will receive a dataset on Day 3 at lunch time
-* they will be requested to analyse the data via a selected FDA technique among those introduced during the course
-* evaluation will be carried out in a seminar, where the students will be requested to
-    + motivate the choice of analysis
-    + describe the chosen methodology
-    + visualize and discuss the data and results
-
+Evaluation of the course learning outcome will be carried out via a take-home exam (see the dedicated page for details)

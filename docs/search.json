@@ -25,7 +25,7 @@
     "href": "index.html#exam",
     "title": "PhD course: An Introduction to Functional Data Analysis",
     "section": "Exam",
-    "text": "Exam\nEvaluation of the course learning outcome will be carried out via a take-home exam:\n\nthe students will receive a dataset on Day 3 at lunch time\nthey will be requested to analyse the data via a selected FDA technique among those introduced during the course\nevaluation will be carried out in a seminar, where the students will be requested to\n\nmotivate the choice of analysis\ndescribe the chosen methodology\nvisualize and discuss the data and results"
+    "text": "Exam\nEvaluation of the course learning outcome will be carried out via a take-home exam (see the dedicated page for details)"
   },
   {
     "objectID": "schedule.html",
@@ -54,5 +54,26 @@
     "title": "Schedule and Materials",
     "section": "Exam",
     "text": "Exam\nEvaluation of the course learning outcome will be carried out via a take-home exam:\n\nthe students will receive a dataset on Day 3 at lunch time\nthey will be requested to analyse the data via a selected FDA technique among those introduced during the course\nevaluation will be carried out in a seminar, where the students will be requested to\n\nmotivate the choice of analysis\ndescribe the chosen methodology\nvisualize and discuss the data and results"
+  },
+  {
+    "objectID": "exam.html",
+    "href": "exam.html",
+    "title": "Take-Home Exam Description",
+    "section": "",
+    "text": "the students will receive one or more datasets on Day 3\nthey will be requested to analyse one set of data (at their choice) via at least one selected FDA technique among those introduced during the course\nevaluation will be carried via a written report (max 2 pages), where the students will be requested to\n\nmotivate the choice of analysis\ndescribe the chosen methodology\nvisualize and discuss the data and results\n\ndeadline for submitting the exam report: April 15th, 2024"
+  },
+  {
+    "objectID": "exam.html#exam-description-and-timeline",
+    "href": "exam.html#exam-description-and-timeline",
+    "title": "Take-Home Exam Description",
+    "section": "",
+    "text": "the students will receive one or more datasets on Day 3\nthey will be requested to analyse one set of data (at their choice) via at least one selected FDA technique among those introduced during the course\nevaluation will be carried via a written report (max 2 pages), where the students will be requested to\n\nmotivate the choice of analysis\ndescribe the chosen methodology\nvisualize and discuss the data and results\n\ndeadline for submitting the exam report: April 15th, 2024"
+  },
+  {
+    "objectID": "exam.html#exam-datasets",
+    "href": "exam.html#exam-datasets",
+    "title": "Take-Home Exam Description",
+    "section": "Exam Datasets",
+    "text": "Exam Datasets\nTBA"
   }
 ]

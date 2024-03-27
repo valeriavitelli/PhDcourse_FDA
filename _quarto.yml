@@ -12,6 +12,8 @@ website:
         text: Home
       - href: schedule.qmd
         text: Schedule
+      - href: exam.qmd
+        text: Exam
 
     right: 
       - icon: github

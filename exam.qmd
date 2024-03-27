@@ -1,0 +1,21 @@
+---
+title: "Take-Home Exam Description"
+subtitle: "Description of the exam datasets, requirements, and timeline"
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+## Exam description and timeline
+* the students will receive one or more datasets on Day 3
+* they will be requested to analyse one set of data (at their choice) via at least one selected FDA technique among those introduced during the course
+* evaluation will be carried via a written report (max 2 pages), where the students will be requested to
+    + motivate the choice of analysis
+    + describe the chosen methodology
+    + visualize and discuss the data and results
+* **deadline for submitting the exam report: April 15^th^, 2024**
+
+## Exam Datasets
+
+TBA

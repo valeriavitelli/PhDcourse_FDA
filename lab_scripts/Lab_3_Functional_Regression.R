@@ -41,6 +41,7 @@ tempfd <- smooth.basis(day.5, CanadianWeather$dailyAv[,,"Temperature.C"], smallb
 precip.Temp1 <- fRegress(annualprec ~ tempfd)
 #  the output is a list with class name fRegress, display names
 names(precip.Temp1)
+?fRegress
 
 #  the vector of fits to the data is object  precip.Temp1$yfdPar,
 #  but since the dependent variable is a vector, so is the fit
@@ -84,9 +85,11 @@ precip.Temp2 <- do.call('fRegress', precip.Temp.mdl2)
 precip.Temp1[['df']] # 26
 precip.Temp2[['df']]  # a bit more than 15
 #  root-mean-squared errors:
-RMSE1 <- sqrt(mean(with(precip.Temp1, (yhatfdobj-yfdobj)^2)))
+annualprec.fit1 <- precip.Temp1$yhatfdobj
+RMSE1 <- sqrt(mean((annualprec-annualprec.fit1)^2))
+annualprec.fit2 <- precip.Temp2$yhatfdobj
+RMSE2 <- sqrt(mean((annualprec-annualprec.fit2)^2))
 RMSE1
-RMSE2 <- sqrt(mean(with(precip.Temp2, (yhatfdobj-yfdobj)^2)))
 RMSE2
 # error is slightly increased
 
@@ -139,16 +142,17 @@ dim(Y);length(X) # sanity check
 ## (The pffr function in the 'refund' package can fit any
 ## functional linear model with functional response)
 
+?pffr
 fit <- pffr(Y ~ X, data = myDat)
 yhat <- predict(fit, newdata = myDat)
 
-Rsq_t <- 1-colSums((Y - yhat)^2) / colSums((Y - colMeans(Y))^2)
+Rsq_t <- 1-colSums((Y - yhat)^2) / colSums((Y - matrix(colMeans(Y), dim(Y)[1], dim(Y)[2], byrow = TRUE))^2)
+Rsq_t
 
 x11()
 plot(day, Rsq_t, type='l', ylab = expression(R^2),
      main = 'Time dependent goodness-of-fit measure')
 mean(Rsq_t)
-## [1] 0.7296885
 
 # plot the original and fitted curves
 x11()
@@ -246,7 +250,11 @@ myDat$Y <- Y
 # use again pffr as easier
 fit <- pffr(Y ~ X, data = myDat)
 yhat <- predict(fit, newdata = myDat)
-Rsq_t <- 1-colSums((Y - yhat)^2) / colSums((Y - colMeans(Y))^2)
+
+Rsq_t <- 1-colSums((Y - yhat)^2) / colSums((Y - matrix(colMeans(Y), dim(Y)[1], dim(Y)[2], byrow = TRUE))^2)
+x11()
+plot(day, Rsq_t, type='l', ylab = expression(R^2),
+     main = 'Time dependent goodness-of-fit measure')
 mean(Rsq_t)
 
 matplot(day, t(Y), type='l', lty = 1, 
