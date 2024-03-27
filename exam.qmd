@@ -10,10 +10,11 @@ format:
 ## Exam description and timeline
 * the students will receive one or more datasets on Day 3
 * they will be requested to analyse one set of data (at their choice) via at least one selected FDA technique among those introduced during the course
-* evaluation will be carried via a written report (max 2 pages), where the students will be requested to
+* evaluation will be done on a written report (max 2 pages excluding figures and tables) describing the analysis, where the students will be requested to:
     + motivate the choice of analysis
     + describe the chosen methodology
     + visualize and discuss the data and results
+* R scripts for carrying out the analysis shall be attached separately
 * **deadline for submitting the exam report: April 15^th^, 2024**
 
 ## Exam Datasets
